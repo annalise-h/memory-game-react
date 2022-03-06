@@ -60,7 +60,7 @@ class App extends React.Component {
     if (newPickedCards.length === 2) {
       const [card1Index, card2Index] = newPickedCards;
 
-      if (newDeck[card1Index].symbol != newDeck[card2Index].symbol) {
+      if (newDeck[card1Index].symbol !== newDeck[card2Index].symbol) {
         setTimeout(this.unflipCards.bind(this, card1Index, card2Index), 1000);
       }
 

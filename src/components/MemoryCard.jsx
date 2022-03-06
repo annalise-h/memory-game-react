@@ -1,4 +1,5 @@
 import React from "react";
+import dclogo from "../digitalcrafts-logo-white-y.png";
 import "./MemoryCard.css";
 
 class MemoryCard extends React.Component {
@@ -12,7 +13,7 @@ class MemoryCard extends React.Component {
         <div className={memoryCardInnerClass}>
           <div className="MemoryCardBack">
             <img
-              src="/digitalcrafts-logo-white-y.png"
+              src={dclogo}
               alt="Digital Crafts Logo"
               className="dc-logo"
             ></img>
